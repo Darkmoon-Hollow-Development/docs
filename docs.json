@@ -9,24 +9,19 @@
   },
   "favicon": "/logo/Logo.png",
 "navigation": {
-  "tabs": [
+  "anchors": [
     {
-      "tab": "Getting Started",
-      "pages": [
-        "introduction"
-      ]
-    },
-    {
-      "tab": "Minecraft",
-      "pages": [
-        "minecraft-server"
-      ]
-    },
-    {
-      "tab": "Website",
-      "pages": [
-        "email-issues",
-        "account-setup"
+      "anchor": "Untitled Anchor",
+      "tabs": [
+        {
+          "tab": "Getting Started",
+          "pages": [
+            "introduction",
+            "minecraft-server",
+            "email-issues",
+            "account-setup"
+          ]
+        }
       ]
     }
   ]
