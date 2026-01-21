@@ -57,7 +57,7 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Minecraft",
         "groups": [
           {
             "group": "API documentation",
@@ -72,6 +72,26 @@
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference-copied-1/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference-copied-1/endpoint/get",
+              "api-reference-copied-1/endpoint/create",
+              "api-reference-copied-1/endpoint/delete",
+              "api-reference-copied-1/endpoint/webhook"
             ]
           }
         ]
