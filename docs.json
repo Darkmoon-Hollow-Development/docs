@@ -10,12 +10,6 @@
   "favicon": "/logo/Logo.png",
   "navigation": {
     "global": {
-      "tabs": [
-        {
-          "tab": "Changelogs",
-          "href": "/changelog"
-        }
-      ],
       "anchors": [
         {
           "anchor": "Blog",
@@ -103,7 +97,7 @@
         ]
       },
       {
-        "tab": "Change Logs",
+        "tab": "Changelogs",
         "pages": [
           "change-logs/changelog"
         ]
