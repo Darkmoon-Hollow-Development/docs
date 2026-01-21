@@ -55,8 +55,7 @@
           {
             "group": "Getting Started",
             "pages": [
-              "api-reference/introduction",
-              "minecraft/getting-started/server-instalation"
+              "api-reference/introduction"
             ]
           }
         ]
