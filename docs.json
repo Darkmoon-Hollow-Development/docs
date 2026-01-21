@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "DH • Documentation",
+  "theme": "almond",
+  "name": "DH Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -46,9 +46,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://darkmoonhollow.xyz/discord",
+      "website": "https://darkmoonhollow.xyz",
+      "instagram": "https://www.instagram.com/darkmoon.hollow"
     }
   }
 }
