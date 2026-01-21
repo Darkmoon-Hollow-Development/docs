@@ -53,15 +53,27 @@
         "tab": "Minecraft",
         "groups": [
           {
-            "group": "BisectHosting",
+            "group": "Darkmoon Hollow SMP Server",
             "pages": [
-              "minecraft/bisect-hosting/step-1-purchase-a-minecraft-server",
-              "minecraft/bisect-hosting/step-2-access-bisecthosting-starbase-panel"
+              "minecraft/darkmoon-hollow-smp-server/darkmoon-hollow-smp-mod-wiki",
+              {
+                "group": "Create Mod + Addons",
+                "pages": [
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-aquatic-ambitions",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-central-kitchen",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-copycats",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-dragons-plus",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-enchantment-industry",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-hypertubes",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-mobile-packages",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-numismatics",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-oxidized",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-trading-floor",
+                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-ultimate-factory-forge-fabric-neo-forge"
+                ]
+              }
             ]
-          },
-          {
-            "group": "SimplisticNode",
-            "pages": []
           },
           {
             "group": "Getting Started",
