@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "DH • Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/Logo.png",
   "navigation": {
     "global": {
       "anchors": [
@@ -77,7 +77,7 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Darkmoon Chronicles",
         "groups": [
           {
             "group": "API documentation",
@@ -98,10 +98,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/logo/Logo.png",
   "navbar": {
     "links": [
       {
@@ -129,9 +126,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://darkmoonhollow.xyz/discord",
+      "instagram": "https://instagram.com/darkmoon.hollow",
+      "website": "https://darkmoonhollow.xyz/"
     }
   }
 }
