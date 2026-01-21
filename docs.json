@@ -104,22 +104,8 @@
       },
       {
         "tab": "Change Logs",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference-copied-2/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference-copied-2/endpoint/get",
-              "api-reference-copied-2/endpoint/create",
-              "api-reference-copied-2/endpoint/delete",
-              "api-reference-copied-2/endpoint/webhook"
-            ]
-          }
+        "pages": [
+          "change-logs/changelog"
         ]
       }
     ]
