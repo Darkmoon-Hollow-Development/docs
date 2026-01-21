@@ -55,72 +55,21 @@
           {
             "group": "Darkmoon Hollow SMP Server",
             "pages": [
-              "minecraft/darkmoon-hollow-smp-server/darkmoon-hollow-smp-mod-wiki",
-              {
-                "group": "Create Mod + Addons",
-                "pages": [
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-aquatic-ambitions",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-central-kitchen",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-copycats",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-dragons-plus",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-enchantment-industry",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-hypertubes",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-mobile-packages",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-numismatics",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-oxidized",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-trading-floor",
-                  "minecraft/darkmoon-hollow-smp-server/create-mod-addons/create-ultimate-factory-forge-fabric-neo-forge"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Getting Started",
-            "pages": [
-              "api-reference/introduction"
+              "minecraft/darkmoon-hollow-smp-server/darkmoon-hollow-smp-mod-wiki"
             ]
           }
         ]
       },
       {
         "tab": "Darkmoon Hollow",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference-copied-1/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference-copied-1/endpoint/get",
-              "api-reference-copied-1/endpoint/create",
-              "api-reference-copied-1/endpoint/delete",
-              "api-reference-copied-1/endpoint/webhook"
-            ]
-          }
+        "pages": [
+          "darkmoon-hollow/coming-soon"
         ]
       },
       {
         "tab": "Darkmoon Chronicles",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference-copied-2/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference-copied-2/endpoint/get",
-              "api-reference-copied-2/endpoint/create",
-              "api-reference-copied-2/endpoint/delete",
-              "api-reference-copied-2/endpoint/webhook"
-            ]
-          }
+        "pages": [
+          "darkmoon-chronicles/coming-soon"
         ]
       },
       {
