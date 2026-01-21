@@ -92,20 +92,52 @@
         "tab": "Changelogs",
         "groups": [
           {
-            "group": "Year",
+            "group": "Darkmoon Chronicles Changelogs",
+            "pages": []
+          },
+          {
+            "group": "Darkmoon Hollow Website Changelogs",
+            "pages": []
+          },
+          {
+            "group": "Minecraft Modpack Changelogs",
+            "pages": [
+              {
+                "group": "ShaDragon",
+                "pages": [
+                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-3"
+                ]
+              },
+              {
+                "group": "ShaDragon Create Adventures",
+                "pages": [
+                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-2"
+                ]
+              },
+              {
+                "group": "Darkmoon Hollow",
+                "pages": [
+                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-1"
+                ]
+              },
+              {
+                "group": "Darkmoon Hollow SMP",
+                "pages": [
+                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Documentation Changelogs",
             "pages": [
               {
                 "group": "2026",
                 "pages": [
                   {
-                    "group": "Month",
+                    "group": "Janurary",
                     "pages": [
-                      {
-                        "group": "Janurary",
-                        "pages": [
-                          "change-logs/changelog"
-                        ]
-                      }
+                      "change-logs/changelog"
                     ]
                   }
                 ]
