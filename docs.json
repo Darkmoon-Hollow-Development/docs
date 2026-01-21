@@ -53,6 +53,17 @@
         "tab": "Minecraft",
         "groups": [
           {
+            "group": "BisectHosting",
+            "pages": [
+              "minecraft/bisect-hosting/step-1-purchase-a-minecraft-server",
+              "minecraft/bisect-hosting/step-2-access-bisecthosting-starbase-panel"
+            ]
+          },
+          {
+            "group": "SimplisticNode",
+            "pages": []
+          },
+          {
             "group": "Getting Started",
             "pages": [
               "api-reference/introduction"
