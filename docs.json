@@ -170,7 +170,7 @@
   "background": {
     "decoration": "gradient",
     "color": {
-      "dark": "#292929"
+      "dark": "#000000"
     }
   },
   "seo": {
