@@ -169,5 +169,8 @@
   },
   "background": {
     "decoration": "gradient"
+  },
+  "seo": {
+    "indexing": "all"
   }
 }
