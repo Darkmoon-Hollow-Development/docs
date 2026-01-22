@@ -79,7 +79,9 @@
               },
               {
                 "group": "Darkmoon Hollow SMP",
-                "pages": []
+                "pages": [
+                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/dhsmp-changelog"
+                ]
               }
             ]
           }
