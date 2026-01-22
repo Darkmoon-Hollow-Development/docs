@@ -170,5 +170,6 @@
   "background": {
     "decoration": "gradient",
     "image": "/images/DHBanner.png"
-  }
+  },
+  "description": "This is our new Documentation for all Darkmoon Hollow Assets"
 }
