@@ -168,7 +168,7 @@
     "default": "dark"
   },
   "background": {
-    "decoration": "gradient",
+    "decoration": "grid",
     "color": {
       "dark": "#141414"
     }
