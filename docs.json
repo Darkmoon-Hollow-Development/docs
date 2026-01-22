@@ -132,7 +132,7 @@
                   {
                     "group": "Janurary",
                     "pages": [
-                      "change-logs/changelog"
+                      "change-logs/site-wide-changelog"
                     ]
                   }
                 ]
@@ -148,7 +148,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@darkmoonhollow.xyz"
       }
     ],
     "primary": {
@@ -175,5 +175,15 @@
       "instagram": "https://instagram.com/darkmoon.hollow",
       "website": "https://darkmoonhollow.xyz/"
     }
+  },
+  "metadata": {
+    "timestamp": false
+  },
+  "interaction": {
+    "drilldown": false
+  },
+  "banner": {
+    "dismissible": false,
+    "content": "Test"
   }
 }
