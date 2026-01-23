@@ -56,34 +56,10 @@
         "tab": "Changelogs",
         "pages": [
           "changelogs/site-wide-changelogs",
-          "changelogs/dhsmp-changelog",
-          {
-            "group": "Minecraft Modpack Changelogs",
-            "pages": [
-              {
-                "group": "ShaDragon Adventures",
-                "pages": [
-                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-3"
-                ]
-              },
-              {
-                "group": "ShaDragon Create Adventures",
-                "pages": [
-                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-2"
-                ]
-              },
-              {
-                "group": "Darkmoon Hollow",
-                "pages": [
-                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-1"
-                ]
-              },
-              {
-                "group": "Darkmoon Hollow SMP",
-                "pages": []
-              }
-            ]
-          }
+          "changelogs/sha-dragon-adventures",
+          "changelogs/sha-dragon-create-adventures",
+          "changelogs/darkmoon-hollow",
+          "changelogs/darkmoon-hollow-smp"
         ]
       }
     ]
