@@ -17,8 +17,8 @@
           {
             "group": "Hosting",
             "pages": [
-              "guides/hosting/simplistic-node",
-              "guides/partnership/bisect-hosting"
+              "guides/hosting/bisect-hosting",
+              "guides/hosting/simplistic-node"
             ]
           }
         ]
