@@ -13,7 +13,14 @@
       {
         "tab": "Guides",
         "pages": [
-          "index"
+          "index",
+          {
+            "group": "Hosting",
+            "pages": [
+              "guides/hosting/bisect-hosting",
+              "guides/hosting/simplistic-node"
+            ]
+          }
         ]
       },
       {
@@ -31,8 +38,8 @@
       {
         "tab": "Darkmoon Hollow",
         "pages": [
-          "darkmoon-hollow/rank-structure",
-          "darkmoon-hollow/coming-soon"
+          "darkmoon-hollow/coming-soon",
+          "darkmoon-hollow/rank-structure"
         ]
       },
       {
@@ -56,35 +63,10 @@
         "tab": "Changelogs",
         "pages": [
           "changelogs/site-wide-changelogs",
-          {
-            "group": "Minecraft Modpack Changelogs",
-            "pages": [
-              {
-                "group": "ShaDragon Adventures",
-                "pages": [
-                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-3"
-                ]
-              },
-              {
-                "group": "ShaDragon Create Adventures",
-                "pages": [
-                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-2"
-                ]
-              },
-              {
-                "group": "Darkmoon Hollow",
-                "pages": [
-                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/changelog-copied-1"
-                ]
-              },
-              {
-                "group": "Darkmoon Hollow SMP",
-                "pages": [
-                  "changelogs/minecraft-modpack-changelogs/darkmoon-hollow-smp/dhsmp-changelog"
-                ]
-              }
-            ]
-          }
+          "changelogs/sha-dragon-adventures",
+          "changelogs/sha-dragon-create-adventures",
+          "changelogs/darkmoon-hollow",
+          "changelogs/darkmoon-hollow-smp"
         ]
       }
     ]
