@@ -64,11 +64,16 @@
         "tab": "Changelogs",
         "pages": [
           "changelogs/site-wide-changelogs",
-          "changelogs/sha-dragon-adventures",
-          "changelogs/sha-dragon-create-adventures",
-          "changelogs/darkmoon-hollow",
-          "changelogs/darkmoon-hollow-smp",
-          "changelogs/stormhold-modpack"
+          {
+            "group": "Minecraft Modpacks",
+            "pages": [
+              "changelogs/minecraft-modpacks/sha-dragon-adventures",
+              "changelogs/minecraft-modpacks/sha-dragon-create-adventures",
+              "changelogs/minecraft-modpacks/darkmoon-hollow",
+              "changelogs/minecraft-modpacks/darkmoon-hollow-smp",
+              "changelogs/minecraft-modpacks/stormhold"
+            ]
+          }
         ]
       }
     ]
