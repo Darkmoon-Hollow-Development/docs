@@ -14,14 +14,19 @@
         "tab": "Welcome",
         "pages": [
           "index",
+          "welcome/getting-started",
+          "welcome/platform-overview",
+          "welcome/websites",
+          "welcome/minecraft-modpacks",
+          "welcome/discord-and-bots",
+          "welcome/how-to-create-an-account-and-check-your-spam-folder",
           {
             "group": "Hosting",
             "pages": [
               "guides/hosting/bisect-hosting",
               "guides/hosting/simplistic-node"
             ]
-          },
-          "welcome/how-to-create-an-account-and-check-your-spam-folder"
+          }
         ]
       },
       {
