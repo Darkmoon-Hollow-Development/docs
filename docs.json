@@ -30,21 +30,38 @@
         ]
       },
       {
-        "tab": "Minecraft",
+        "tab": "Games",
         "groups": [
           {
-            "group": "Stormhold",
+            "group": "American Truck Simulator",
             "pages": [
-              "minecraft/stormhold/stormhold-server-help",
-              "minecraft/stormhold/stormhold-modpack-help",
-              "minecraft/stormhold/before-asking-for-help"
+              {
+                "group": "VTC",
+                "pages": [
+                  "darkmoon-hollow-trucking-dht-official-vtc-wiki",
+                  "members"
+                ]
+              }
             ]
           },
           {
-            "group": "Darkmoon Hollow SMP",
+            "group": "Minecraft",
             "pages": [
-              "minecraft/darkmoon-hollow-smp/mod-wiki",
-              "minecraft/darkmoon-hollow-smp-server/mods"
+              {
+                "group": "Darkmoon Hollow SMP",
+                "pages": [
+                  "mods",
+                  "mod-wi-ki"
+                ]
+              },
+              {
+                "group": "Stormhold",
+                "pages": [
+                  "before-asking-for-help",
+                  "stormhold-server-help",
+                  "stormhold-modpack-help"
+                ]
+              }
             ]
           }
         ]
