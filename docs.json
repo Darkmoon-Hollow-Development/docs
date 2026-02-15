@@ -93,9 +93,6 @@
               "dhrp-website"
             ]
           },
-          "changelogs/merch-changelog",
-          "changelogs/site-wide-changelogs",
-          "changelogs/discord-server-changelog",
           {
             "group": "Minecraft Modpacks",
             "pages": [
@@ -111,7 +108,10 @@
               "changelogs/minecraft-modpacks/darkmoon-hollow",
               "changelogs/minecraft-modpacks/darkmoon-hollow-smp"
             ]
-          }
+          },
+          "changelogs/merch-changelog",
+          "changelogs/site-wide-changelogs",
+          "changelogs/discord-server-changelog"
         ]
       }
     ]
