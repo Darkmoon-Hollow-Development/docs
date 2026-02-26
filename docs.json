@@ -88,12 +88,6 @@
         "tab": "Changelogs",
         "pages": [
           {
-            "group": "Darkmoon Hollow RP",
-            "pages": [
-              "dhrp-website"
-            ]
-          },
-          {
             "group": "Minecraft Modpacks",
             "pages": [
               {
@@ -111,7 +105,15 @@
           },
           "changelogs/merch-changelog",
           "changelogs/site-wide-changelogs",
-          "changelogs/discord-server-changelog"
+          "changelogs/discord-server-changelog",
+          {
+            "group": "Darkmoon Hollow RolePlay",
+            "pages": [
+              "dhrp-cad-system",
+              "dhrp-five-m-server",
+              "dhrp-website-1"
+            ]
+          }
         ]
       }
     ]
