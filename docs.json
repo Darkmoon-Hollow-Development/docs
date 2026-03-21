@@ -107,11 +107,11 @@
           "changelogs/site-wide-changelogs",
           "changelogs/discord-server-changelog",
           {
-            "group": "Darkmoon Hollow RolePlay",
+            "group": "Darkmoon Hollow Emergency Response Simulator",
             "pages": [
-              "dhrp-cad-system",
-              "dhrp-five-m-server",
-              "dhrp-website-1"
+              "dhers-website",
+              "dhers-cad-system",
+              "dhers-five-m-server"
             ]
           }
         ]
