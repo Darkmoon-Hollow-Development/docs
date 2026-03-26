@@ -113,6 +113,12 @@
               "dhers-cad-system",
               "dhers-five-m-server"
             ]
+          },
+          {
+            "group": "Darkmoon Hollow Trucking",
+            "pages": [
+              "dht-vtc"
+            ]
           }
         ]
       }
