@@ -90,17 +90,18 @@
           {
             "group": "Minecraft Modpacks",
             "pages": [
+              "changelogs/minecraft-modpacks/sha-dragon-adventures",
+              "changelogs/minecraft-modpacks/sha-dragon-create-adventures",
+              "changelogs/minecraft-modpacks/darkmoon-hollow",
+              "changelogs/minecraft-modpacks/darkmoon-hollow-smp",
+              "changelogs/minecraft-modpacks/miraculous-hollow-smp",
               {
                 "group": "Stormhold",
                 "pages": [
                   "changelogs/minecraft-modpacks/stormhold/stormhold-modpack",
                   "changelogs/minecraft-modpacks/stormhold/stormhold-server"
                 ]
-              },
-              "changelogs/minecraft-modpacks/sha-dragon-adventures",
-              "changelogs/minecraft-modpacks/sha-dragon-create-adventures",
-              "changelogs/minecraft-modpacks/darkmoon-hollow",
-              "changelogs/minecraft-modpacks/darkmoon-hollow-smp"
+              }
             ]
           },
           "changelogs/merch-changelog",
