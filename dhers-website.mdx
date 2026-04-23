@@ -3,11 +3,35 @@ title: "DHERS Website"
 description: "https://ers.darkmoonhollow.xyz"
 ---
 
+<Note>
+  We are in need of heads for our departments
+</Note>
+
+<Update label="04/23/2026">
+  ## Added
+
+  • Application Form Categories with Discord role gating — group forms into categories, hide entire categories behind roles. Role checks span every configured Discord guild.
+
+  • Request Revision workflow — new yellow button alongside Approve/Deny. Leave per-answer feedback, applicant sees exactly what needs changing inline, updates just those fields, resubmits. Tracks resubmit count.
+
+  • Status Announcements to Discord — post bugs, issues, and planned downtime to a Discord channel with one checkbox. Updates edit the original message in place. Per-item overrides for channel and ping role, global defaults in Settings.
+
+  • Multi-Guild Support — four purpose toggles on every configured Discord server (Verify / Role Sync / Role Assign / Role Logs). Role mappings are now per-guild. New "Roles to Assign in Other Guilds" picker on application forms for assigning roles across multiple guilds on approval.
+
+  ## Fixed
+
+  • Discord status announcement messages are now properly retired
+
+  • Discord embed description length cap added for revision DMs
+
+  • Multi-guild role collection now cached in session (3-min TTL) to prevent Discord API hammering on every public page load.
+</Update>
+
 <Update label="03/21/2026">
   ## Forms Added
 
   - Blaine County Sheriff's Office
-  - Civilian 
+  - Civilian
   - Department Head Interest Form
     - This form is only to be used if you wish to be a Department head for our server.
   - Los Santos Police Department
@@ -16,5 +40,5 @@ description: "https://ers.darkmoonhollow.xyz"
 
   ### Other Changes Made
 
-  - About me section Added
+  - About me section added
 </Update>
