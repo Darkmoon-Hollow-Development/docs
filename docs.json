@@ -104,7 +104,6 @@
               "changelogs/minecraft-modpacks/miraculous-hollow-smp"
             ]
           },
-          "changelogs/discord-server-changelog",
           {
             "group": "Darkmoon Hollow Emergency Response Simulator",
             "pages": [
@@ -126,7 +125,8 @@
               "changelogs/merch-changelog",
               "changelogs/image-uploader"
             ]
-          }
+          },
+          "changelogs/discord-server-changelog"
         ]
       }
     ]
