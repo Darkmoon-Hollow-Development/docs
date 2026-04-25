@@ -7,6 +7,28 @@ description: "https://ers.darkmoonhollow.xyz"
   All changes made by [LonexLabs](https://lonexlabs.com/)
 </Note>
 
+<Update label="v1.17">
+  Added
+
+  • Multi-guild channel picker on application forms — the Approval/Denial Channel and Submission Channel (Staff) settings now let you pick which Discord server the message goes to, then which channel within that server. Previously, you could only post to channels in your main guild. Existing forms keep working as-is — their saved channels auto-resolve to the matching server when you open the editor.
+
+  • Dynamic homepage — the homepage now adapts to who's viewing it. Visitors who aren't signed in see the existing hero exactly as it was. Signed-in members get a personalised greeting, their applications, open positions they can apply for, latest community news, and recent gallery shots. Staff see a snapshot of pending applications, open helpdesk tickets, active site status items, and the latest application submissions across the site — all linking straight through to the relevant admin pages.
+
+  • Public department pages — every department now has its own polished page at /{slug}, e.g. /lspd or /fire. Upload a header banner and a logo, set an accent colour, and fill in the mission, requirements, and a list of ranks. The Apply button links straight to whichever application form you've assigned. There's also a markdown body below the structured sections for anything that doesn't fit the fields.
+
+  • Public application stats page — opt-in transparency dashboard at /stats showing submissions, approvals, denials, approval rate, average response time, and current backlog over both the last 30 days and all-time. Includes a daily submission chart and a per-form breakdown table.
+
+  Fixed
+
+  •  Apostrophes in changelog entry fields no longer break the Edit and Post to Discord buttons.
+
+  •  Editing existing application forms now works reliably — opening the Settings panel on a saved form was silently failing if the form had any acceptance roles configured.
+
+  • Deleting a redirect URL no longer pops up a confirmation showing just the number 1.
+
+  • Submitting an application form no longer creates duplicate entries on retries or back-button navigation.
+</Update>
+
 <Update label="v1.16">
   Added
 
