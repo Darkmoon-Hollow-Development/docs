@@ -104,8 +104,6 @@
               "changelogs/minecraft-modpacks/miraculous-hollow-smp"
             ]
           },
-          "changelogs/merch-changelog",
-          "changelogs/site-wide-changelogs",
           "changelogs/discord-server-changelog",
           {
             "group": "Darkmoon Hollow Emergency Response Simulator",
@@ -119,6 +117,13 @@
             "group": "Darkmoon Hollow Trucking",
             "pages": [
               "dht-vtc"
+            ]
+          },
+          {
+            "group": "Websites",
+            "pages": [
+              "changelogs/site-wide-changelogs",
+              "changelogs/merch-changelog"
             ]
           }
         ]
