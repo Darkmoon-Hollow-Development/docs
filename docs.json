@@ -123,7 +123,8 @@
             "group": "Websites",
             "pages": [
               "changelogs/site-wide-changelogs",
-              "changelogs/merch-changelog"
+              "changelogs/merch-changelog",
+              "changelogs/image-uploader"
             ]
           }
         ]

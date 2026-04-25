@@ -4,11 +4,11 @@ description: "https://ers.darkmoonhollow.xyz"
 ---
 
 <Note>
-  We are in need of heads for our departments
+  All changes made by [LonexLabs](https://lonexlabs.com/)
 </Note>
 
-<Update label="04/23/2026">
-  ## Added
+<Update label="v1.16">
+  Added
 
   • Application Form Categories with Discord role gating — group forms into categories, hide entire categories behind roles. Role checks span every configured Discord guild.
 
@@ -18,7 +18,7 @@ description: "https://ers.darkmoonhollow.xyz"
 
   • Multi-Guild Support — four purpose toggles on every configured Discord server (Verify / Role Sync / Role Assign / Role Logs). Role mappings are now per-guild. New "Roles to Assign in Other Guilds" picker on application forms for assigning roles across multiple guilds on approval.
 
-  ## Fixed
+  Fixed
 
   • Discord status announcement messages are now properly retired
 
@@ -27,18 +27,300 @@ description: "https://ers.darkmoonhollow.xyz"
   • Multi-guild role collection now cached in session (3-min TTL) to prevent Discord API hammering on every public page load.
 </Update>
 
-<Update label="03/21/2026">
-  ## Forms Added
+<Update label="v1.15">
+  Added
 
-  - Blaine County Sheriff's Office
-  - Civilian
-  - Department Head Interest Form
-    - This form is only to be used if you wish to be a Department head for our server.
-  - Los Santos Police Department
-  - San Andreas Communications Department
-  - San Andreas Highway Patrol
+  • Add, edit, and delete additional Discord servers with Name, Guild ID, and optional Invite URL
 
-  ### Other Changes Made
+  • Application forms can now require users to be members of specific Discord servers before applying
 
-  - About me section added
+  • Applications redesigned
+
+  Fixed
+
+  • Google Fonts was violating Content Security Policy
+
+  • Syntax errors in applications
+</Update>
+
+<Update label="v1.14">
+  Added
+
+  Store module - self-hosted store to your LonexCommunity, sell digital downloads, Discord roles, and product keys.
+
+  • Full e-commerce storefront with hero branding, category grid, and product cards
+
+  • Shopping cart with session persistence, quantity management, and coupon code support
+
+  • Checkout flow with Stripe and PayPal payment gateway support
+
+  • Order confirmation page with product key display, download links, and Discord role delivery status
+
+  • Previous Purchases page with order history
+
+  • Four product types: Digital download, Discord Role, Product Key, and Bundle
+
+  • Product key pool management with low-stock warnings and masked key display
+
+  • Custom icon image upload per category (128×128 px recommended) with SVG fallback
+
+  • Separate configurable processing fee percentages for Stripe and PayPal
+
+  • Configurable TOS page with full Markdown rendering
+</Update>
+
+<Update label="v1.13">
+  Added
+
+  Staff Integration module - connect your LonexStaff panel to display player data on the community site
+
+  • Player Leaderboard with Playtime and Trust Score tabs
+
+  • Staff Duty Leaderboard with period filters (7 days, 30 days, 90 days, all time)
+
+  • Server Activity chart showing hourly player connection patterns
+
+  • Player Lookup — search by Discord ID, view full profile with stats and trust score ring
+
+  • Action Record summary on player profiles (commendations, warnings, kicks, bans)
+
+  • Action History timeline with appeal links on player profiles
+
+  • Ban Appeal system — players can submit appeals that create helpdesk tickets
+
+  • Configurable appeal questions (add, remove, reorder from admin settings)
+
+  • Staff Integration admin settings page with API connection, appeals config, and lookup visibility
+
+  • 15-minute validation cache — license server is contacted once per 15 minutes, not every page load
+
+  • 72-hour database-backed grace period for transient license server failures
+
+  • Rate limit (HTTP 429) handling as a transient error with a grace period fallback
+
+  Fixed
+
+  • License validation errors caused by SDK cache format change during upgrades
+
+  • Intermittent "License validation failed" errors on transient server timeouts
+
+  • Rate limit exceeded errors caused by validating on every page load
+
+  • Helpdesk License crashes when `HELPDESK_VERSION` constant not defined outside init context
+
+  • Appeal form 20-character minimum now only applies to textarea fields, not short text inputs
+
+  • Navigation link checks API URL and key are configured before showing the Players link
+</Update>
+
+<Update label="v1.12">
+  Added
+
+  • Ability to add a dividing line ("section header") to an application
+
+  • Ability to edit the statuses for the changelog
+
+  • Ability to log status page event messages, downtime etc.
+
+  Fixed
+
+  • Duplication of nav bar items
+</Update>
+
+<Update label="v1.11">
+  Added
+
+  • Per-application logos - upload a custom image per form, displayed on both the applications page and the form header
+
+  • Redirect Links system - create short slugs (e.g. /discord) that redirect to any URL, with click tracking and admin management panel
+
+  • Navigation dropdowns - group nav items into labelled dropdown menus via the nav editor
+
+  • Redirect links appear as selectable items in the nav editor with a purple badge
+
+  • Direct "Review Application" link embedded in Discord submission notifications
+
+  • Role assignment priority - set a priority value on role mappings to control which site role wins when a user has multiple matching Discord roles
+
+  • Application form ordering - move forms up/down or drag-reorder from the admin panel
+
+  • Maintenance mode now shows a subtle Admin Login link so admins can still authenticate
+
+  Fixed
+
+  • Team page was displaying Discord role IDs instead of configured display names
+
+  • Markdown now renders correctly in application question labels and help text
+
+  • Applications page layout redesigned - "My Applications" history moved below the form grid instead of a sidebar column
+
+  • Application form cards redesigned to match a cleaner centred layout with larger logos
+</Update>
+
+<Update label="v1.10">
+  Added
+
+  • Full mobile-responsive overhaul (Suggested by Thompson)
+
+  • Custom page Discord role visibility restrictions (Suggested by Brad S.)
+
+  • FiveM server status badge on homepage (Suggested by NickJeta)
+
+  Fixed
+
+  • Widescreen dropdown clipping fix
+
+  • Asset cache versions to all CSS and JS links
+
+  • Page permissions
+
+  • JQuery Bug Fixes relating to the Helpdesk Module
+</Update>
+
+<Update label="v1.9">
+  Added
+
+  • Navigation Editor - New Settings → Navigation tab. Drag-and-drop reorder, toggle visibility, rename labels, and add custom external links to your navbar
+
+  • Discord Channel Notifications - Store notifications now use your bot token \+ channel ID instead of webhooks, consistent with the rest of LonexCommunity
+
+  • New Order Notifications - Discord now sends a "New Order Placed" embed when an order is created (pending payment), controlled by the existing toggle
+
+  • CSRF Protection — Cart, checkout, and product pages now verify CSRF tokens on all POST actions
+
+  • PayPal Webhook Verification — PayPal webhooks now verify orders directly with the PayPal API instead of blindly trusting the payload
+
+  • Cart in User Dropdown — Cart link with item count badge now appears in the user dropdown menu. Guest users see a cart icon when they have items
+
+  • Helpdesk permission support - Custom roles with helpdesk permissions (view/respond/manage) now properly grant access
+
+  Fixed
+
+  • "Deliverable deleted" on product update — Nested HTML forms caused the delete action to fire when updating a product. Forms are now properly separated
+</Update>
+
+<Update label="v1.8">
+  Added
+
+  • Required role for applications - Per-form option to require a specific Discord role before submitting. Users without the role see a clear message instead of the form.
+
+  • Reapply cooldown enforcement - The reapply time setting now blocks resubmission until the cooldown expires. Countdown shown on form cards and form page.
+
+  Fixed
+
+  • Super admin access being removed on login - Login no longer auto-downgrades admin/super admin roles. Removal must now be done manually via the admin panel.
+
+  • Centre-align team members not working - Switched from CSS Grid to Flexbox so the toggle actually centres cards when a row isn't full.
+
+  • Discord role pings not triggering notifications - Added allowed\_mentions to all Discord API calls so role and user pings properly highlight.
+</Update>
+
+<Update label="v1.7">
+  Added
+
+  • Permission-gated admin sidebar - Navigation items now only appear if your role has the relevant permission. No more seeing pages you can't use.
+
+  • Server-side permission enforcement - Admin pages (Users, Pages, Custom Pages, Gallery, Team) now block access with a 403 if the role lacks the required permission, even via direct URL.
+
+  • team.manage permission - New permission to control who can manage the Team page, now available in the role editor.
+
+  • Centre-align team members - New toggle in Admin → Team settings to centre team cards within each row instead of left-aligning them.
+
+  • Discord role mapping support on login - Custom roles configured in Admin → Roles → Discord Role Mappings are now applied automatically when users log in.
+
+  Fixed
+
+  • Roles reverting to "member" on login - Users with custom roles assigned via Discord role mappings or manually were being reset to "member" every time they logged in. The login flow now checks the role mappings table and preserves manually-assigned roles.
+
+  • Sidebar showing all pages regardless of permissions - The admin sidebar previously showed every menu item to anyone with panel access. It now respects individual permissions per nav item.
+
+  • Admin header syntax error Fixed an unmatched if/endif block in the admin template.
+</Update>
+
+<Update label="v1.6.1">
+  Added
+
+  • Custom roles with the `admin.access` Permission can now access the admin panel without needing a core role
+
+  • Staff member lookups now include users with custom roles that have admin panel access
+
+  Fixed
+
+  • Settings button unresponsive - Fixed an issue where the Settings button on Application Forms would not work for some users.
+
+  • Custom roles resetting on login - Fixed custom site roles being overridden back to Member when users logged in via Discord.
+
+  • Application notifications separated - Submission notifications and approval/denial notifications are no longer forced into the same Discord channel.
+
+  • Team member query fixes for custom roles
+</Update>
+
+<Update label="v1.6">
+  Added
+
+  • Custom roles with the `admin.access` Permission can now access the admin panel without needing a core role
+
+  • Staff member lookups now include users with custom roles that have admin panel access
+
+  Fixed
+
+  • Settings button unresponsive - Fixed an issue where the Settings button on Application Forms would not work for some users.
+
+  • Custom roles resetting on login - Fixed custom site roles being overridden back to Member when users logged in via Discord.
+
+  • Application notifications separated - Submission notifications and approval/denial notifications are no longer forced into the same Discord channel.
+
+  • Team member query fixes for custom roles
+</Update>
+
+<Update label="v1.5.1">
+  Fixed
+
+  • Ability to assign a custom role to a user
+</Update>
+
+<Update label="v1.5">
+  **Added**\
+  • File uploads (images, PDFs, docs) on tickets and replies (Suggested by mrkryptondev)\
+  • Department dropdown selector (Suggested by mrkryptondev)\
+  • Toggle custom pages to appear in user menu alongside Admin Panel/Logout (Suggested by mrkryptondev)\
+  • Granular permission system for custom roles (Suggested by Brokeback)
+</Update>
+
+<Update label="v1.4">
+  Added
+
+  • New licensing system support
+</Update>
+
+<Update label="v1.3">
+  Added
+
+  • Helpdesk Module Support
+
+  • Module License Integrated
+
+  • Improved Error Handling
+
+  Fixed
+
+  • Navigation Links
+
+  • Security Patches
+</Update>
+
+<Update label="v1.2">
+  **Fixed**\
+  • Role Names depending on Discord Mapping\
+  • Primary Colours setting within Branding\
+  • Lonex Tracking System
+</Update>
+
+<Update label="v1.1">
+  **Added**\
+  • Ability to create custom navigation links\
+  • Lonex Helpdesk Checker\
+  \
+  **Fixed**\
+  • Additional security checks
 </Update>
