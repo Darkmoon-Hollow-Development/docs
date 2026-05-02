@@ -7,6 +7,20 @@ description: "https://ers.darkmoonhollow.xyz"
   All changes made by [LonexLabs](https://lonexlabs.com/)
 </Note>
 
+<Update label="v1.18">
+  Added
+
+  `.user.ini` at the site root with `upload_max_filesize=16M` and `post_max_size=20M`. Default PHP `2M `was rejecting most phone/camera images.
+
+  Fixed,
+
+  Upload directory permissions — Permissions were broken on v1.17 for new installations. Have fixed.,
+
+  Application form modals — Channel ID fields (Approval/Denial Channel, Submission Channel, Ping Role) no longer vanish on installs without Discord roles mapped.,
+
+  Changelog editor — Published entries with images can now be cleared via a new "Remove current image on save" checkbox. Previously, the only way to remove an image was to upload a different one.
+</Update>
+
 <Update label="v1.17">
   Added
 
