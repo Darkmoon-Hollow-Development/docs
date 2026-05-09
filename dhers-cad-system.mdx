@@ -1,29 +1,25 @@
 ---
-title: 'DHERS cad System'
-description: "We are using ImperialCAD for a more realistic experience"
+title: "DHERS cad System"
 ---
 
-<Update label="02/26/2026">
-  ### New cad system in the works
+<Note>
+  We have switched to LonexCad
+</Note>
 
-  - Races added
-  - Streets added
-  - Postals added
-  - Departments added
+<Update label="05/09/2026">
+  ## Added,
 
-    <Note>
-      We are in need of heads for our departments
-    </Note>
-    - Blaine County Sheriff's Office
-    - Civilian
-    - Dispatch
-    - Field Training Office
-    - Los Santos Fire Department
-    - Los Santos Police Department
-    - San Andreas Highway Patrol
-    - San Andreas Judicial Services
-  - Natures added
-  - Genders added
-  - Cities added
-  - Counties added
+  - BRAND NEW Dashboard Design — Offering a secondary design to the CAD, which includes more information PLUS a live map!,
+  - In-game 911 dispatch alert HUD — When a 911 call lands in CAD, on-duty officers in dispatch-recipient departments now see a top-right HUD with the caller, location, description, priority and a 30s countdown — plus two keybind options: \[E\] Assign & Waypoint (attaches you to the call and drops a GTA waypoint) and \[X\] Disregard. A flashing red minimap blip is also placed at the call coords for 30 seconds, independent of whether the alert is dismissed.,
+  - Civilian /911 in-game command — Players can now place 911 calls without leaving the game. Type /911 your description for quick-fire submission, or just /911 to enter prompt mode for description \+ priority. Calls land in CAD with the player's coords pre-filled, so the dispatcher can see them on the map immediately.,
+  - Dispatch tone fan-out — When a new 911 call is created, on-duty officers and dispatchers in your configured recipient departments hear a "new 911" tone in-game. No more missed calls because nobody was watching the dashboard.,
+  - Active Units status stripe — The vertical colour bar on the left of each Active Units row now reflects each officer's current status code colour (was always the same default green). Quick-glance triage of who's 10-8, who's 10-97, who's on a traffic stop, etc.,
+  - Assigned-units chips on 911 calls — Active 911 Calls panel now shows callsign chips on the right side of each call row, listing every officer attached to it. Up to 3 inline plus a \+N overflow chip with a hover tooltip showing the rest. Updates within 5s of an officer assigning themselves (in-game \[E\] or web "Assign Self").,
+  - Live status updates — Picking a new status from the dropdown no longer triggers a full page reload. The dropdown colour, sidebar status line and Active Units row all update within a second.,
+
+  ## Fixed,
+
+  - Officer status dropdown showing blank text — On certain dark themes the closed-state text in the status dropdown was rendering invisibly, leaving you guessing what your current status was.,
+  - LeoCharacters::getById TypeError on going on-duty — Customers reported a fatal error "Argument #1 (\$id) must be of type int, string given" when going on-duty. Caused by stale session data from older PHP versions; now handled defensively across every code path that reads the active character ID.,
+  - Live-map officer marker pulse — Lights/sirens red/blue strobe was occasionally not synchronising correctly between the map marker and the Active Units sidebar. Both now stay perfectly in sync regardless of how the bridge reports siren state.
 </Update>
